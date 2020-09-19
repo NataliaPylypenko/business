@@ -1,0 +1,44 @@
+@import "variables";
+@import "mixins";
+@import "functions";
+
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 7px;
+  margin-right: 15px;
+
+  &__link {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    font-family: $ff-main-bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #424242;
+    transition: 0.3s;
+
+    &:hover,
+    &--active {
+      color: #de2b24;
+    }
+
+    &:after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 15px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: #424242;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
+  }
+}

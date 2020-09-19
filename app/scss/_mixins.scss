@@ -1,0 +1,68 @@
+@mixin centerer-xy() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin centerer-x() {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin centerer-y() {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+//div {
+//  @include centerer;
+//  width: 100px;
+//  height: 100px;
+//}
+
+
+//@mixin triangle($width, $direction, $color) {
+//  width: 0;
+//  height: 0;
+//  @if $direction == up {
+//    border-left: $width solid transparent;
+//    border-right: $width solid transparent;
+//    border-bottom: $width solid $color;
+//  }
+//
+//  @if $direction == down {
+//    border-left: $width solid transparent;
+//    border-right: $width solid transparent;
+//    border-top: $width solid $color;
+//  }
+//
+//  @if $direction == left {
+//    border-top: $width solid transparent;
+//    border-bottom: $width solid transparent;
+//    border-right: $width solid $color;
+//  }
+//
+//  @if $direction == right {
+//    border-top: $width solid transparent;
+//    border-bottom: $width solid transparent;
+//    border-left: $width solid $color;
+//  }
+//}
+//
+////div.triangle {
+////  @include triangle(50px, up, #ccc);
+////}
+
+
+//@mixin font($size, $font, $color) {
+//  font-family: $font;
+//  font-size: $size;
+//  color: $color;
+//}
+//
+////div {
+////  @include font(1.2rem, "Arial", red);
+////}

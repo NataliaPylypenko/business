@@ -1,0 +1,38 @@
+@import "variables";
+@import "mixins";
+@import "functions";
+
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+
+
+/* --------------- BUTTON --------------- */
+.button {
+  display: inline-block;
+  border-right: 3px;
+  padding: 10px 22px 7px;
+  text-decoration: none;
+  color: #fff;
+
+  &--red {
+    background-color: #de2b24;
+    transition: 0.3s;
+
+    &:hover {
+      background: lighten(#de2b24, 10%);
+    }
+  }
+
+  &--yellow {
+    background-color: #f8cd53;
+    transition: 0.3s;
+
+    &:hover {
+      background: lighten(#f8cd53, 10%);
+    }
+  }
+  
+  &--text-uppercase {
+    text-transform: uppercase;
+  }
+}
