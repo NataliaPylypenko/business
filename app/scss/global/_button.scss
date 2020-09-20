@@ -1,12 +1,4 @@
-@import "variables";
-@import "mixins";
-@import "functions";
 
-@import "../../node_modules/font-awesome/scss/font-awesome";
-@import "../../node_modules/normalize.scss/normalize";
-
-
-/* --------------- BUTTON --------------- */
 .button {
   display: inline-block;
   border-right: 3px;

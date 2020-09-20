@@ -1,6 +1,20 @@
-@import "variables";
-@import "mixins";
-@import "functions";
+@import "global/variables";
+@import "global/mixins";
+@import "global/functions";
+@import "global/common";
+@import "global/fonts";
+@import "global/base";
+@import "global/button";
+@import "global/icons";
+@import "global/sprite";
+
+@import "components/header";
+@import "components/hero";
+@import "components/nav";
+@import "components/title";
+@import "components/about";
+@import "components/approach";
+@import "components/footer";
 
 @import "../../node_modules/font-awesome/scss/font-awesome";
 @import "../../node_modules/normalize.scss/normalize";
