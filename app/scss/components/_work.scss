@@ -25,11 +25,22 @@
   }
 
   &__item {
-    width: 256px;
+    position: relative;
+    padding-bottom: calc(25% * 253/255);
+    width: 25%;
     height: 256px;
     font-weight: bold;
     color: #fff;
     background-color: #f35e59;
+
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
     &--name {
       position: relative;

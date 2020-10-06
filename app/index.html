@@ -20,6 +20,7 @@
 </head>
 
 <body>
+
 <header class="header">
     <div class="header__top">
         <div class="container">
@@ -33,8 +34,11 @@
 
     <div class="container">
         <div class="header__bottom">
-            <div class="logo">
+            <div class="logo logo-md">
                 <img class="logo__picture" src="img/logo.png" alt="picture">
+            </div>
+            <div class="logo logo-mob d-none">
+                <img class="logo__picture" src="img/logo-mob.png" alt="picture">
             </div>
             <nav class="nav">
                 <a class="nav__link nav__link--active" href="#" data-link="header">Home</a>
@@ -42,6 +46,13 @@
                 <a class="nav__link" href="#" data-link="approach">Our Approch</a>
                 <a class="nav__link" href="#" data-link="work">Our Work</a>
             </nav>
+            <!--nav-mob-->
+            <div class="nav-mob d-none">
+                <button class="c-hamburger">
+                    <span></span>
+                </button>
+            </div>
+            <!--nav-mob-->
             <a class="button header__button button--red" href="#">Free Consultation</a>
         </div>
     </div>
@@ -158,24 +169,32 @@
                 <div class="work__description">Facebook marketing</div>
             </li>
             <li class="work__item">
-                <img class="work__picture" src="img/work-1.jpg" alt="picture">
+                <div>
+                    <img class="work__picture" src="img/work-1.jpg" alt="picture">
+                </div>
             </li>
             <li class="work__item work__item--name">
                 <div class="work__name">Project Name</div>
                 <div class="work__description">Landing page</div>
             </li>
             <li class="work__item">
-                <img class="work__picture" src="img/work-2.jpg" alt="picture">
+                <div>
+                    <img class="work__picture" src="img/work-2.jpg" alt="picture">
+                </div>
             </li>
             <li class="work__item">
-                <img class="work__picture" src="img/work-3.jpg" alt="picture">
+                <div>
+                    <img class="work__picture" src="img/work-3.jpg" alt="picture">
+                </div>
             </li>
             <li class="work__item work__item--name">
                 <div class="work__name">Project Name</div>
                 <div class="work__description">Landing page</div>
             </li>
             <li class="work__item">
-                <img class="work__picture" src="img/work-4.jpg" alt="picture">
+                <div>
+                    <img class="work__picture" src="img/work-4.jpg" alt="picture">
+                </div>
             </li>
             <li class="work__item work__item--name">
                 <div class="work__name">Project Name</div>
